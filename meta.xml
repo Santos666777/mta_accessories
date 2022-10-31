@@ -1,0 +1,44 @@
+<meta>
+	
+	<info author="Sousa / advancedcodes.store" />
+
+    <script src="configuration/main.lua" type="shared" cache="false" />
+    <script src="configuration/shop.lua" type="shared" cache="false" />
+
+    <script src="shared/functions.lua" type="shared" cache="false" />
+
+    <script src="client/main.lua" type="client" cache="false" />
+    <script src="client/shop.lua" type="client" cache="false" />
+    <script src="client/equip.lua" type="client" cache="false" />
+    <script src="client/replace.lua" type="client" cache="false" />
+    <script src="client/functions.lua" type="client" cache="false" />
+
+    <script src="server/main.lua" type="server" />
+    <script src="server/database.lua" type="server" />
+
+    <export function="setPlayerAccessory" type="server" />
+    <export function="removePlayerAccessory" type="server" />
+    <export function="getPlayerAccessories" type="server" />
+
+    <file src="assets/fonts/Inter-Bold.ttf" />
+    <file src="assets/fonts/Inter-ExtraBold.ttf" />
+
+    <file src="assets/images/move.png" />
+    <file src="assets/images/circle.png" />
+    <file src="assets/images/border.png" />
+    <file src="assets/images/rotate.png" />
+    <file src="assets/images/ready.png" />
+    <file src="assets/images/remove.png" />
+    
+    <file src="assets/images/shop/background.png" />
+    <file src="assets/images/shop/container.png" />
+    <file src="assets/images/shop/circle.png" />
+    <file src="assets/images/shop/buy.png" />
+    <file src="assets/images/shop/hands.png" />
+
+    <file src="assets/images/shop/items/assaultbag.png" />
+
+    <file src="assets/models/assaultbag.dff" />
+    <file src="assets/models/assaultbag.txd" />
+
+</meta>
